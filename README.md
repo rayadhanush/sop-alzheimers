@@ -6,6 +6,6 @@ The function ***vmdFn(inputFolder, outputFolder, vmdParams)*** performs vmd on e
 ```
 inputFolder = 'C:\Users\username\Documents\SOP-Alzheimers\Alzheimer_s Dataset\train\MildDemented\';
 outputFolder = 'C:\Users\username\Documents\SOP-Alzheimers\imfs\train\MildDemented\';
-vmdParams = {100, 0.1, 4, false, 0, 0.0000001};
+vmdParams = {500, 0.1, 4, false, 0, 0.0000001};
 vmdFn(inputFolder, outputFolder, vmdParams);
 ```
